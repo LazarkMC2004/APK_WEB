@@ -1,0 +1,87 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-image: url('https://i.imgur.com/M8VZ7zx.jpeg');
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.8);
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px gold;
+}
+
+h1 {
+  text-align: center;
+  color: gold;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #ffd700;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #888;
+  background-color: #222;
+  color: white;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #cfa30b;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gold;
+}
+
+h2 {
+  color: #00bfff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border-left: 3px solid gold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ccc;
+  font-size: 14px;
+}
