@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Habitaciones - Hotel ULEAM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/validaciones.js"></script>
+</head>
+<body>
+    <h2>Gestión de Habitaciones</h2>
+    <form id="formHabitacion">
+        <label for="numero">Número de Habitación:</label>
+        <input type="number" id="numero" name="numero" required>
+
+        <label for="tipo">Tipo:</label>
+        <select id="tipo" name="tipo" required>
+            <option value="">Seleccione</option>
+            <option value="Simple">Simple</option>
+            <option value="Doble">Doble</option>
+            <option value="Suite">Suite</option>
+        </select>
+
+        <label for="precio">Precio por noche:</label>
+        <input type="number" id="precio" name="precio" required>
+
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>

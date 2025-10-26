@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reportes - Hotel ULEAM</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/reportes.js"></script>
+</head>
+<body>
+  <h2>📊 Reportes del Sistema - Hotel ULEAM</h2>
+
+  <div class="report-container">
+    <button onclick="generarReporte('habitaciones')">Habitaciones Disponibles</button>
+    <button onclick="generarReporte('reservas')">Reservas Activas</button>
+    <button onclick="generarReporte('clientes')">Clientes Frecuentes</button>
+  </div>
+
+  <div id="resultado" class="reporte-resultado"></div>
+
+  <footer>
+    <a href="dashboard.html" class="back-btn">⬅ Volver al Panel</a>
+  </footer>
+</body>
+</html>
